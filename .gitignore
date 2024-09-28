@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+.vs/
+RpcClient/x64/
+RpcServer/x64/
+RpcStubs/Calculator.h
+RpcStubs/Calculator_c.c
+RpcStubs/Calculator_s.c
+RpcStubs/x64/
+x64/

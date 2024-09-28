@@ -4,8 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RpcServer", "RpcServer\RpcServer.vcxproj", "{B3B0CCEA-164A-426F-B33D-1015F8AEB24C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC68B153-02C2-4D51-8888-9B83A5BCC348} = {EC68B153-02C2-4D51-8888-9B83A5BCC348}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RpcClient", "RpcClient\RpcClient.vcxproj", "{2A2830BE-A3BD-499A-901B-D12D5884F226}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC68B153-02C2-4D51-8888-9B83A5BCC348} = {EC68B153-02C2-4D51-8888-9B83A5BCC348}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RpcStubs", "RpcStubs\RpcStubs.vcxproj", "{EC68B153-02C2-4D51-8888-9B83A5BCC348}"
 EndProject
