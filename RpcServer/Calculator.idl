@@ -1,0 +1,13 @@
+[
+	uuid(4c0037c3-8412-4ddc-8dc1-4fe283e4d60e),
+	version(1.0)
+]
+interface Calculator
+{
+    typedef long HRESULT;
+    
+    HRESULT Add([in] long a, [in] long b, [out, retval] long* result);
+    HRESULT Subtract([in] long a, [in] long b, [out, retval] long* result);
+    HRESULT Multiply([in] long a, [in] long b, [out, retval] long* result);
+    HRESULT Divide([in] long a, [in] long b, [out, retval] long* result);
+};
