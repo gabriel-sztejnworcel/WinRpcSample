@@ -159,7 +159,7 @@
     <ClCompile Include="ServerStub.c" />
   </ItemGroup>
   <ItemGroup>
-    <Midl Include="..\RpcServer\Calculator.idl" />
+    <Midl Include="Calculator.idl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

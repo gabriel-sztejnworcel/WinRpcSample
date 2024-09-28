@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Midl Include="..\RpcServer\Calculator.idl">
+    <Midl Include="Calculator.idl">
       <Filter>Source Files</Filter>
     </Midl>
   </ItemGroup>
